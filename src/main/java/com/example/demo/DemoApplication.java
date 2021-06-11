@@ -14,4 +14,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	@Bean(name = "test", initMethod = "init")
+	public Initializer initializer() {
+		return new Initializer();
+	}
 }
