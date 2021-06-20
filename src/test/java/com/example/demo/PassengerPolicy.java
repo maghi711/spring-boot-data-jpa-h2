@@ -1,9 +1,11 @@
 package com.example.demo;
 
+/*
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+*/
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 
@@ -16,7 +18,7 @@ public class PassengerPolicy {
     private List<String> passengers = new ArrayList<>();
     private Map<String, List<String>> flightWIthPassengers = new HashMap<>();
     private String passenger = null;
-
+/*
     @Given("^there is an economy flight$")
     public void thereIsAnEconomyFlight() throws Throwable {
         flightWIthPassengers.put("AirIndia", passengers);
@@ -39,4 +41,5 @@ public class PassengerPolicy {
                 () -> Assert.assertEquals(0, airIndia.size())
                 );
     }
+ */
 }
